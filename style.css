@@ -180,7 +180,7 @@ img {
 	width: 30px;
 	margin: 2px;
 	padding: 2px;
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 }
 .trustedCompanies {
 	display: flex;
