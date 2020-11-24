@@ -72,7 +72,7 @@ img {
 	font-style: normal;
 	letter-spacing: normal;
 	line-height: 26px;
-	text-align: center;
+	text-align: left;
 }
 .hero-container {
 	max-width: 100%;
@@ -90,7 +90,6 @@ img {
 	align-items: center;
 	justify-content: space-between;
 	margin: 0 auto;
-	width: 100%;
 }
 .App {
 	color: #fcae61;
@@ -137,7 +136,7 @@ img {
 	display: flex;
 	align-items: center;
 	text-align: left;
-	padding: 10px 48px 6px 0px;
+	padding: 10px 48px 9px 0px;
 	width: 332px;
 	height: 35px;
 	border-radius: 18px;
@@ -171,7 +170,6 @@ img {
 }
 .wrapper-split2 {
 	display: flex;
-	margin-right: auto;
 }
 
 .hamburgerMenu {
@@ -184,7 +182,88 @@ img {
 	padding: 2px;
 	background-color: black;
 }
-@media only screen and (max-width: 1252px) {
+.trustedCompanies {
+	display: flex;
+	justify-content: center;
+	padding: 115px 0px 100px 0px;
+}
+.trustedWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* .trustedWrapper p {
+
+
+} */
+.companiesLogos {
+	display: flex;
+	flex-direction: row;
+	padding: 38px 0px;
+}
+.companiesLogos li {
+	list-style: none;
+	text-decoration: none;
+	padding: 0px 20px;
+}
+.awesomeApps {
+	display: flex;
+	justify-content: baseline;
+	align-items: center;
+	padding: 0 100px;
+}
+.awesome-wrapper1 {
+	display: flex;
+	flex: 1;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+.awesome-wrapper2 {
+	padding: 0 35px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.appsFeatures {
+	padding: 0 0 25px 0;
+}
+.featPar {
+	padding: 0px 150px 10px 0;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+}
+.listofFeatures {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	text-decoration: none;
+}
+.listofFeatures li {
+	display: flex;
+	flex-direction: row;
+	padding: 30px 0;
+}
+.listofFeatures li div p {
+	color: #616368;
+}
+.listofFeatures li div {
+	padding: 0px 0px 0px 30px;
+	margin-right: 100px;
+}
+.listofFeatures li div h4 {
+	padding: 0px 0px 20px 0px;
+}
+.fastPerformance {
+	color: #f55767;
+}
+.proto {
+	color: #2563ff;
+}
+.vector {
+	color: rgb(71, 148, 71);
+}
+@media only screen and (max-width: 600px) {
 	#editorChoice {
 		width: 300px;
 	}
@@ -264,13 +343,13 @@ img {
 	}
 	#hero-wrapper {
 		margin: 70px 0 30px 0;
-		align-items: center;
+		align-items: flex-start;
 		flex-direction: column;
+		justify-content: center;
 	}
 	#wrapper-split1 {
 		margin: 0px 10px;
 		padding: 0;
-		margin-right: auto;
 		flex: unset;
 		border-bottom-left-radius: 25px;
 	}
@@ -280,11 +359,13 @@ img {
 		padding: 0;
 	}
 	.alignItems-split1 {
-		text-align: center;
+		text-align: left;
 		align-items: flex-start;
 	}
 	.alignItems-split1 p {
-		padding: 10px 0;
+		display: flex;
+		padding: 10px 10px;
+		margin: 0;
 	}
 	.split1-btn {
 		margin-right: 5px;
@@ -293,16 +374,179 @@ img {
 		line-height: 60px;
 	}
 	.navigationBar {
-		width: 90%;
+		padding: 0px 20px;
 	}
 	.wrapper-split2 {
 		flex: unset;
-		margin: 20px 10px 0px 10px;
+		margin: 0px;
+		margin-left: auto;
+		justify-content: center;
+		align-items: center;
+		width: unset;
+	}
+	.trustedCompanies {
+		display: flex;
+		justify-content: center;
+		padding: 25px 0px 50px 0px;
+		max-width: 100%;
+	}
+	.trustedWrapper {
+		width: 90%;
+	}
+	.companiesLogos {
+		flex-direction: column;
+		width: 100%;
+		padding: 30px;
+	}
+	.companiesLogos li {
+		padding: 20px;
+	}
+	.companiesLogos li:nth-child(even) {
 		margin-left: auto;
 	}
 }
-
-@media only screen and (min-width: 1253px) {
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+	#editorChoice {
+		width: 370px;
+		font-size: 18px;
+		font-family: "Poppins", sans-serif;
+	}
+	.poppins-small {
+		font-size: 18px;
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+		color: #242f51;
+	}
+	.poppins-medium {
+		font-size: 35px;
+		font-family: "Poppins - Semi Bold";
+		font-weight: 400;
+		color: #242f51;
+	}
+	.poppins-medium-large {
+		font-size: 40px;
+		font-weight: 400;
+		font-family: "Poppins - Semi Bold";
+		color: #242fd1;
+		line-height: 50px;
+		text-align: left;
+	}
+	.poppins-large {
+		font-size: 55px;
+		font-weight: 600;
+		font-family: "Poppins - Semi Bold";
+		font-style: normal;
+		color: #242f51;
+		text-align: left;
+		line-height: 75px;
+	}
+	.offer-text {
+		color: #999ca5;
+		font-family: "Poppins", sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 48px;
+		text-align: left;
+	}
+	.poppins-button {
+		border-radius: 29px;
+		background-color: #2500f9;
+		padding: 10px 41px 10px 41px;
+		color: #ffffff;
+		font-family: "Poppins", sans-serif;
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: normal;
+		line-height: 44px;
+		text-align: left;
+	}
+	.poppins-paragraph {
+		color: #616368;
+		font-family: "Poppins", sans-serif;
+		font-size: 17px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 26px;
+		text-align: left;
+	}
+	.links {
+		display: none;
+	}
+	.hero-container {
+		background-image: url(images/2-layers.png);
+		background-size: 115%;
+		background-position: bottom;
+		background-repeat: no-repeat;
+	}
+	.hero-wrapper-container {
+		margin: 30px 0px;
+		justify-content: center;
+	}
+	#hero-wrapper {
+		margin: 70px 0 30px 0;
+		align-items: flex-start;
+		flex-direction: column;
+		justify-content: center;
+	}
+	#wrapper-split1 {
+		margin: 0px 10px;
+		padding: 0;
+		flex: unset;
+		border-bottom-left-radius: 25px;
+	}
+	.watchDemo {
+		background-color: transparent;
+		color: blue;
+		padding: 0;
+	}
+	.alignItems-split1 {
+		text-align: left;
+		align-items: flex-start;
+	}
+	.alignItems-split1 p {
+		display: flex;
+		padding: 10px 10px;
+		margin: 0;
+	}
+	.split1-btn {
+		margin-right: 5px;
+	}
+	.bestApp {
+		line-height: 60px;
+	}
+	.navigationBar {
+		padding: 0px 20px;
+	}
+	.wrapper-split2 {
+		flex: unset;
+		margin: 0px;
+		margin-left: auto;
+		justify-content: center;
+		align-items: center;
+		width: unset;
+	}
+	.trustedCompanies {
+		display: flex;
+		justify-content: center;
+		padding: 25px 0px 50px 0px;
+		max-width: 100%;
+	}
+	.trustedWrapper {
+		width: 80%;
+	}
+	.companiesLogos {
+		flex-direction: column;
+		width: 100%;
+		padding: 30px;
+	}
+	.companiesLogos li {
+		padding: 10px;
+	}
+}
+@media only screen and (min-width: 1201px) {
 	.links a {
 		font-size: 16px;
 	}
