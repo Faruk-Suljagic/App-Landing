@@ -11,32 +11,32 @@ button {
 }
 img {
 	max-width: 100%;
-	height: auto;
 }
 .poppins-small {
 	font-size: 16px;
+	line-height: 26px;
 	font-family: "Poppins", sans-serif;
 	font-weight: 400;
 	color: #242f51;
 }
 .poppins-medium {
 	font-size: 36px;
-	font-family: "Poppins - Semi Bold";
-	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
 	color: #242f51;
 }
 .poppins-medium-large {
 	font-size: 40px;
-	font-weight: 400;
-	font-family: "Poppins - Semi Bold";
-	color: #242fd1;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+	color: #242f51;
 	line-height: 50px;
 	text-align: left;
 }
 .poppins-large {
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 600;
-	font-family: "Poppins - Semi Bold";
+	font-family: "Poppins", sans-serif;
 	font-style: normal;
 	color: #242f51;
 	text-align: left;
@@ -83,12 +83,11 @@ img {
 	background-repeat: no-repeat;
 }
 .hero-wrapper-container {
-	margin: 80px 130px 0px 130px;
+	margin: 80px 0px 0px;
 }
 .navigationBar {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	margin: 0 auto;
 }
 .App {
@@ -98,7 +97,7 @@ img {
 	color: #242f51;
 }
 .logo {
-	font-size: 30px;
+	font-size: 40px;
 	flex: 1;
 	font-weight: 600;
 	letter-spacing: normal;
@@ -107,24 +106,24 @@ img {
 	font-family: "Poppins", sans-serif;
 }
 .links {
-	flex: 5;
+	flex: 3;
 	text-align: right;
 }
 .links a {
 	text-decoration: none;
 	font-size: 14px;
-	padding-right: 35px;
+	padding-right: 20px;
 }
 .hero-wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
-	margin: 55px 0px 0px 0px;
+	margin: 55px 30px 0px 50px;
 }
 .wrapper-split1 {
 	display: flex;
-	padding: 0px 140px 0 70px;
+	padding: 0px 50px 0 50px;
 	text-align: left;
 }
 .alignItems-split1 {
@@ -159,6 +158,7 @@ img {
 }
 .increaseProd {
 	text-align: left;
+	padding: 0 100px 0 0;
 }
 .split1-btn {
 	margin-right: 27px;
@@ -192,10 +192,9 @@ img {
 	flex-direction: column;
 	align-items: center;
 }
-/* .trustedWrapper p {
-
-
-} */
+.trustedWrapper div {
+	padding: 50px;
+}
 .companiesLogos {
 	display: flex;
 	flex-direction: row;
@@ -204,29 +203,25 @@ img {
 .companiesLogos li {
 	list-style: none;
 	text-decoration: none;
-	padding: 0px 20px;
+	padding: 0px 30px;
 }
 .awesomeApps {
 	display: flex;
 	justify-content: baseline;
 	align-items: center;
-	padding: 0 100px;
+	padding: 0 80px 100px;
 }
 .awesome-wrapper1 {
 	display: flex;
-	flex: 1;
 	align-items: flex-start;
 	justify-content: flex-end;
 }
 .awesome-wrapper2 {
-	padding: 0 35px;
-	flex: 1;
+	padding: 0 25px;
 	display: flex;
+	flex: 1;
 	flex-direction: column;
-	justify-content: space-around;
-}
-.appsFeatures {
-	padding: 0 0 25px 0;
+	justify-content: flex-start;
 }
 .featPar {
 	padding: 0px 150px 10px 0;
@@ -238,18 +233,26 @@ img {
 	flex-direction: column;
 	list-style: none;
 	text-decoration: none;
+	padding: 40px 0;
 }
 .listofFeatures li {
 	display: flex;
 	flex-direction: row;
-	padding: 30px 0;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 30px 10px;
+	width: 90%;
+}
+.listofFeatures li img {
+	max-width: 70%;
 }
 .listofFeatures li div p {
+	line-height: 26px;
 	color: #616368;
 }
 .listofFeatures li div {
 	padding: 0px 0px 0px 30px;
-	margin-right: 100px;
+	margin-right: 20px;
 }
 .listofFeatures li div h4 {
 	padding: 0px 0px 20px 0px;
@@ -263,6 +266,132 @@ img {
 .vector {
 	color: rgb(71, 148, 71);
 }
+.smartJackpots {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0px 120px;
+}
+.jackpot-wrapper1 {
+	display: flex;
+	flex-direction: row;
+	padding: 0px 0px 80px 0px;
+	justify-content: center;
+	align-items: center;
+}
+.jackpot-small-wrapper1 {
+	padding: 0px 70px 0px 50px;
+	border-right: 1.5px solid rgba(153, 153, 153, 0.336);
+}
+.jackpotLove {
+	line-height: 50px;
+	color: #242f51;
+	font-weight: 700px;
+	font-size: 35px;
+	text-align: left;
+}
+.theRise {
+	line-height: 26px;
+	color: #616368;
+}
+.jackpot-small-wrapper2 {
+	padding: 0px 50px;
+}
+.listTwo {
+	flex-direction: row;
+	padding: 0px 30px;
+}
+.listTwo li {
+	flex-direction: column;
+	align-items: flex-start;
+}
+.listTwo li div {
+	padding: 30px 0px 0px 0px;
+}
+.awesomeTwo {
+	padding: 50px 150px;
+}
+.whyOurApp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 100px 100px;
+}
+.choose {
+	padding: 30px 120px;
+}
+.theRise {
+	padding: 0px 40px;
+}
+.featuresWidth {
+	padding: 0px 50px 0 85px;
+}
+.featParagraph {
+	padding: 0;
+	text-align: unset;
+	align-items: unset;
+	font-weight: 600;
+}
+.appsFeatures p {
+	padding: 15px 0;
+}
+.featuresWidth button {
+	margin: 25px 0;
+}
+.wrapperListedFeatures {
+	display: flex;
+	flex-direction: column;
+	padding: 100px 180px;
+}
+.listThree {
+	display: flex;
+	flex-direction: row;
+	padding: 0px 0px 70px 0px;
+}
+.listThree li {
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	padding: 0px 40px 0px 40px;
+}
+.listThree li div {
+	padding: 35px 0 0;
+}
+.listThree li div h4 {
+	color: #242f51;
+}
+.listThree li div p {
+	padding: 20px 0;
+	color: #616368;
+}
+
+/* .jackpot-wrapper2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.sameJack {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+	padding: 0px 30px 0 15px;
+	line-height: 26px;
+}
+.sameJack h4 {
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+}
+.sameJack p {
+	padding-top: 10px;
+	color: #616368;
+}
+.sameJack img {
+	padding: 37px 0;
+} */
 @media only screen and (max-width: 600px) {
 	#editorChoice {
 		width: 300px;
@@ -274,23 +403,34 @@ img {
 		color: #242f51;
 	}
 	.poppins-medium {
-		font-size: 32px;
-		font-family: "Poppins - Semi Bold";
-		font-weight: 400;
+		font-size: 30px;
+		font-family: "Poppins", sans-serif;
+		font-weight: 600;
 		color: #242f51;
+	}
+	.listTwo {
+		margin: 0 auto;
+	}
+	.listTwo li:nth-child(2) {
+		align-items: center;
+		text-align: center;
+	}
+	.listTwo li:nth-child(3) {
+		align-items: flex-end;
+		text-align: right;
 	}
 	.poppins-medium-large {
 		font-size: 35px;
-		font-weight: 400;
-		font-family: "Poppins - Semi Bold";
-		color: #242fd1;
+		font-weight: 600;
+		font-family: "Poppins", sans-serif;
+		color: #242f51;
 		line-height: 50px;
 		text-align: left;
 	}
 	.poppins-large {
 		font-size: 40px;
 		font-weight: 600;
-		font-family: "Poppins - Semi Bold";
+		font-family: "Poppins", sans-serif;
 		font-style: normal;
 		color: #242f51;
 		text-align: left;
@@ -420,7 +560,7 @@ img {
 	.awesome-wrapper2 {
 		position: relative;
 		z-index: 2;
-		padding: 0px 25px;
+		padding: 0px 15px;
 	}
 	.appsFeatures p {
 		margin: 0;
@@ -449,6 +589,68 @@ img {
 		font-weight: 600;
 		font-family: "Poppins", sans-serif;
 	}
+	.smartJackpots {
+		margin: 0;
+		padding: 10px;
+	}
+	.jackpot-wrapper1 {
+		flex-direction: column;
+		border-right: none;
+		text-align: center;
+		padding: 0px 0px 20px 0px;
+	}
+	.jackpotLove {
+		text-align: left;
+		padding: 10px;
+	}
+	.jackpot-small-wrapper1 {
+		padding: 0;
+		margin: 0;
+		opacity: 100%;
+		z-index: 3;
+		border-right: none;
+		border-bottom: 1px solid gray;
+	}
+	.jackpot-small-wrapper2 {
+		padding: 15px;
+		margin: 0;
+	}
+	.awesomeWrapper2 {
+		padding: 0;
+		margin: 0;
+	}
+	.listTwo {
+		flex-direction: column;
+	}
+	.listTwo li {
+		padding: 30px 0px;
+	}
+	.featuresWidth {
+		padding: 0;
+		margin: 0;
+	}
+	.featuresWidth p {
+		padding: 15px 0;
+	}
+	.awesomeWrapper2 {
+		padding: 30px 20px;
+		margin: 0;
+	}
+	.wrapperListedFeatures {
+		padding: 30px;
+	}
+	.listThree {
+		flex-direction: column;
+	}
+	.whyOurApp {
+		padding: 0;
+	}
+	.choose {
+		padding: 0px;
+	}
+	.theRise {
+		padding: 30px 0px;
+	}
 }
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
 	#editorChoice {
@@ -464,14 +666,14 @@ img {
 	}
 	.poppins-medium {
 		font-size: 35px;
-		font-family: "Poppins - Semi Bold";
+		font-family: "Poppins", sans-serif;
 		font-weight: 400;
 		color: #242f51;
 	}
 	.poppins-medium-large {
 		font-size: 40px;
 		font-weight: 400;
-		font-family: "Poppins - Semi Bold";
+		font-family: "Poppins", sans-serif;
 		color: #242fd1;
 		line-height: 50px;
 		text-align: left;
@@ -479,7 +681,7 @@ img {
 	.poppins-large {
 		font-size: 55px;
 		font-weight: 600;
-		font-family: "Poppins - Semi Bold";
+		font-family: "Poppins", sans-serif;
 		font-style: normal;
 		color: #242f51;
 		text-align: left;
@@ -576,7 +778,7 @@ img {
 	.trustedCompanies {
 		display: flex;
 		justify-content: center;
-		padding: 25px 0px 50px 0px;
+		padding: 25px 0px 0px 0px;
 		max-width: 100%;
 	}
 	.trustedWrapper {
@@ -589,6 +791,9 @@ img {
 	}
 	.companiesLogos li {
 		padding: 10px;
+	}
+	.awesomeApps {
+		flex-direction: column;
 	}
 	.appsFeatures p {
 		margin: 0;
@@ -607,15 +812,61 @@ img {
 	.vector {
 		color: rgb(71, 148, 71);
 	}
+	.jackpot-wrapper1 {
+		padding: 20px 20px;
+	}
+	.jackpot-small-wrapper1 {
+		padding: 0px 40px 0px 20px;
+	}
+	.jackpotLove {
+		line-height: 50px;
+		color: #242f51;
+		font-weight: 700px;
+		font-size: 35px;
+		text-align: left;
+	}
+	.smartJackpots {
+		padding: 0px 20px;
+	}
+	.awesomeTwo {
+		padding: 60px 30px;
+	}
+	.awesomeWrapper2 {
+		padding: 50px 0px 0px;
+	}
+	.featuresWidth p {
+		padding: 10px 0px;
+	}
+	.wrapperListedFeatures {
+		padding: 20px;
+	}
+	.whyOurApp {
+		padding: 0;
+	}
+	.choose {
+		padding: 0px 120px;
+	}
+	.theRise {
+		padding: 20px 40px 50px;
+	}
 }
 @media only screen and (min-width: 1201px) {
 	.links a {
 		font-size: 16px;
 	}
 	.hero-wrapper-container {
-		margin: 60px 150px 0px 150px;
+		margin: 50px 100px 0px 100px;
 	}
 	.hamburgerMenu {
 		display: none;
+	}
+	.awesomeApps {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.awesome-wrapper1 {
+		flex: 1;
 	}
 } ;
